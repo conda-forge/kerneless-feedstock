@@ -11,7 +11,7 @@ source:
     sha256: a68b0e2f506cd81e8e27f27be1e3d49301bdf15a7bb83d6582d9f38b749b40c5
 
 build:
-  number: 0
+  number: 1
   # setup.py installs the headers to <prefix>/include/kerneless/ via data_files.
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
